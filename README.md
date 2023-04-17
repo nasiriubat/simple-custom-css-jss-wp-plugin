@@ -1,5 +1,5 @@
-<h1 align="center"><strong>User Guide: How to Install and Use Custom CSS and JS Plugin</strong></h1>
-<br><br>
+<h1 align="center"><strong>User Guide: How to Install and Use Custom CSS and JS Plugin</strong></h1><br><br>
+
 #Installation
 --------------
 
