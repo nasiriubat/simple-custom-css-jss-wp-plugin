@@ -1,6 +1,5 @@
 <?php
-/*
- * Simple Custom CSS/JS
+/**
  * Plugin Name: Simple Custom CSS/JS
  * Plugin URI: https://github.com/nasiriubat/simple-custom-css-jss-wp-plugin
  * Description: Adds custom CSS and JS to your WordPress site
@@ -24,10 +23,10 @@ function custom_css_js_scripts()
 {
     $custom_css = get_option('custom-css');
     $custom_js = get_option('custom-js');
-    wp_enqueue_style('custom-css', plugin_dir_url(__FILE__) . 'css/custom.css');
-    wp_enqueue_script('custom-js', plugin_dir_url(__FILE__) . 'js/custom.js');
-    file_put_contents(plugin_dir_path(__FILE__) . 'css/custom.css', $custom_css);
-    file_put_contents(plugin_dir_path(__FILE__) . 'js/custom.js', $custom_js);
+    wp_enqueue_style('custom-css', plugin_dir_url(__FILE__) . 'assets/css/custom.css');
+    wp_enqueue_script('custom-js', plugin_dir_url(__FILE__) . 'assets/js/custom.js');
+    file_put_contents(plugin_dir_path(__FILE__) . 'assets/css/custom.css', $custom_css);
+    file_put_contents(plugin_dir_path(__FILE__) . 'assets/js/custom.js', $custom_js);
     // wp_add_inline_style('custom-css', $custom_css);
     // wp_add_inline_script('custom-js', $custom_js);
 }
