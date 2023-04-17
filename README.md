@@ -9,8 +9,7 @@ Upload the plugin: Log in to your WordPress dashboard and navigate to Plugins > 
 
 <strong>Activate the plugin:</strong><br> After the installation is complete, click the "Activate Plugin" button to activate the plugin.
 
-<br>
-<br>
+<br><br>
 #Usage
 ------
 
