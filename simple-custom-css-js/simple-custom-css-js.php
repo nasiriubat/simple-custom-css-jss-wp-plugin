@@ -1,5 +1,6 @@
 <?php
 /*
+ * Simple Custom CSS/JS
  * Plugin Name: Simple Custom CSS/JS
  * Plugin URI: https://github.com/nasiriubat/simple-custom-css-jss-wp-plugin
  * Description: Adds custom CSS and JS to your WordPress site
